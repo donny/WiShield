@@ -1,3 +1,24 @@
+A fork of http://github.com/asynclabs/WiShield with changes to fix
+the following problems:
+- Unknown data type error: prog_char and prog_uchar.
+- File not found error: wiring.h and WProgram.h.
+- Incorrect return type error: write().
+
+Basically, the WiShield code has not been updated to the recent version of
+Arduino.
+
+Tested with:
+- Arduino IDE 1.0.1
+- Arduino Duemilanove (ATmega 328)
+- WiShield 1.0 Arduino shield
+- Ubuntu Linux 12.10
+
+
+
+-------------------------------------------------------------------------------
+
+
+
 WiShield library and TCP/IP stack files for the WiShield 1.0 wireless devices
 
 Async Labs Inc.
